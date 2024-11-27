@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-20T14:45:17 IST" name="Suite" finished-at="2024-11-20T14:46:35 IST" duration-ms="77971">
+    <groups>
+      <group name="Smoke">
+        <method signature="Ecommerce.CartPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" name="CartPage" class="com.Appium.Ecommerce"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-20T14:45:17 IST" name="End To End Framework Test" finished-at="2024-11-20T14:46:20 IST" duration-ms="63353">
+      <class name="com.Appium.Ecommerce">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:45:17 IST" name="ConfigureAppium" finished-at="2024-11-20T14:45:32 IST" duration-ms="15608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:45:33 IST" name="preSetup" finished-at="2024-11-20T14:45:33 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="CartPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:45:33 IST" name="CartPage" data-provider="getData" finished-at="2024-11-20T14:45:50 IST" duration-ms="17703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Austria]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPage -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:45:50 IST" name="preSetup" finished-at="2024-11-20T14:45:51 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="CartPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:45:51 IST" name="CartPage" data-provider="getData" finished-at="2024-11-20T14:46:19 IST" duration-ms="28755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nigga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.Ecommerce@4bf48f6]" started-at="2024-11-20T14:46:19 IST" name="tearDown" finished-at="2024-11-20T14:46:20 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Appium.Ecommerce -->
+    </test> <!-- End To End Framework Test -->
+    <test started-at="2024-11-20T14:46:21 IST" name="ErrorValidation Test" finished-at="2024-11-20T14:46:35 IST" duration-ms="13805">
+      <class name="com.Appium.ErrorValidation">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:com.Appium.ErrorValidation@490caf5f]" started-at="2024-11-20T14:46:21 IST" name="ConfigureAppium" finished-at="2024-11-20T14:46:34 IST" duration-ms="12981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Appium.ErrorValidation@490caf5f]" started-at="2024-11-20T14:46:34 IST" name="tearDown" finished-at="2024-11-20T14:46:35 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Appium.ErrorValidation -->
+    </test> <!-- ErrorValidation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
